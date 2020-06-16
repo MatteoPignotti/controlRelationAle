@@ -1,0 +1,1244 @@
+swagger: '2.0'
+info:
+  title: Customer Reliability
+  description: "\n<b>Customer Reliability</b> \n"
+  version: 0.1.0
+host: localhost
+basePath: /mt-services/customer/reliability/v1
+schemes:
+  - https
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
+paths:
+  /verifyCustomerReliability:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - CustomerReliability
+      description:  get verifyCustomerReliability
+      summary: verifyCustomerReliability
+      operationId: verifyCustomerReliability
+      parameters:
+        - $ref: '#/parameters/MT_APPLICATION'
+        - $ref: '#/parameters/MT_USER'
+        - $ref: '#/parameters/MT_CHANNEL'
+        - $ref: '#/parameters/MT_COMPANY_GROUP'
+        - $ref: '#/parameters/MT_COMPANY'
+        - $ref: '#/parameters/MT_PARTNER'
+        - $ref: '#/parameters/MT_REQUEST_ID'
+        - $ref: '#/parameters/MT_SESSION_ID'
+        - name: verifyCustomerReliabilityRequest
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/VerifyCustomerReliabilityRequest'
+      responses:
+        '200':
+          description: return errors if there are any
+          schema:
+            $ref: '#/definitions/VerifyCustomerReliabilityResponse'
+  /getCustomerReliabilityDocument:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - CustomerReliability
+      description:  get CustomerReliabilityDocument
+      summary: getCustomerReliabilityDocument
+      operationId: getCustomerReliabilityDocument
+      parameters:
+        - $ref: '#/parameters/MT_APPLICATION'
+        - $ref: '#/parameters/MT_USER'
+        - $ref: '#/parameters/MT_CHANNEL'
+        - $ref: '#/parameters/MT_COMPANY_GROUP'
+        - $ref: '#/parameters/MT_COMPANY'
+        - $ref: '#/parameters/MT_PARTNER'
+        - $ref: '#/parameters/MT_REQUEST_ID'
+        - $ref: '#/parameters/MT_SESSION_ID'
+        - name: getCustomerReliabilityDocument
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/GetCustomerReliabilityDocumentRequest'
+      responses:
+        '200':
+          description: return errors if there are any
+          schema:
+            $ref: '#/definitions/GetCustomerReliabilityDocumentResponse'
+  /getCustomerReliabilityResult:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - CustomerReliability
+      description:  get CustomerReliabilityResult
+      summary: getCustomerReliabilityResult
+      operationId: getCustomerReliabilityResult
+      parameters:
+        - $ref: '#/parameters/MT_APPLICATION'
+        - $ref: '#/parameters/MT_USER'
+        - $ref: '#/parameters/MT_CHANNEL'
+        - $ref: '#/parameters/MT_COMPANY_GROUP'
+        - $ref: '#/parameters/MT_COMPANY'
+        - $ref: '#/parameters/MT_PARTNER'
+        - $ref: '#/parameters/MT_REQUEST_ID'
+        - $ref: '#/parameters/MT_SESSION_ID'
+        - name: getCustomerReliabilityResult
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/GetCustomerReliabilityResultRequest'
+      responses:
+        '200':
+          description: return errors if there are any
+          schema:
+            $ref: '#/definitions/GetCustomerReliabilityResultResponse'
+  /getCustomerDocument:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - Customer
+      description:  get Customer Document
+      summary: retrieve Customer Document
+      operationId: getCustomerDocument
+      parameters:
+        - $ref: '#/parameters/MT_APPLICATION'
+        - $ref: '#/parameters/MT_USER'
+        - $ref: '#/parameters/MT_CHANNEL'
+        - $ref: '#/parameters/MT_COMPANY_GROUP'
+        - $ref: '#/parameters/MT_COMPANY'
+        - $ref: '#/parameters/MT_PARTNER'
+        - $ref: '#/parameters/MT_REQUEST_ID'
+        - $ref: '#/parameters/MT_SESSION_ID'
+        - name: getCustomerDocument
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/GetCustomerDocumentRequest'
+      responses:
+        '200':
+          description: return errors if there are any
+          schema:
+            $ref: '#/definitions/GetCustomerDocumentResponse'
+
+  /getCompanyReliabilityReport:
+    post:
+      security:
+        - Bearer: []
+      tags:
+        - CompanyReliability
+      description:  get Company ReliabilitynReport
+      summary: get Company Reliability Report
+      operationId: getCompanyReliabilityReport
+      parameters:
+        - $ref: '#/parameters/MT_APPLICATION'
+        - $ref: '#/parameters/MT_USER'
+        - $ref: '#/parameters/MT_CHANNEL'
+        - $ref: '#/parameters/MT_COMPANY_GROUP'
+        - $ref: '#/parameters/MT_COMPANY'
+        - $ref: '#/parameters/MT_PARTNER'
+        - $ref: '#/parameters/MT_REQUEST_ID'
+        - $ref: '#/parameters/MT_SESSION_ID'
+        - name: getCompanyReliabilityReportRequest
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/GetCompanyReliabilityReportRequest'
+      responses:
+        '200':
+          description: return errors if there are any
+          schema:
+            $ref: '#/definitions/GetCompanyReliabilityReportResponse'
+definitions:
+
+  GetCustomerReliabilityDocumentRequest:
+    allOf:
+      - $ref: '#/definitions/BaseRequest'
+      - type: object
+        properties:
+          messageId:
+            description: messageId
+            type: string
+          serviceId:
+            description: serviceId
+            type: string
+          productId:
+            description: productId
+            type: string
+          language:
+            description: language
+            type: string
+          presentationNameSpace:
+            description: presentationNameSpace
+            type: string
+          compressionType:
+            description: compressionType
+            type: string
+          formatId:
+            description: formatId
+            type: string
+
+  GetCustomerReliabilityDocumentResponse:
+    allOf:
+      - $ref: '#/definitions/BaseResponse'
+      - type: object
+        properties:
+          documentHtml:
+            type: string
+          documentPdf:
+            type: string
+            format: byte
+          documentGZip:
+            type: string
+            format: byte
+
+  GetCustomerDocumentRequest:
+    allOf:
+      - $ref: '#/definitions/BaseRequest'
+      - type: object
+        properties:
+          cardId:
+            type: array
+            items:
+              $ref: '#/definitions/CardId'
+          positionId:
+            description: identification number of the position
+            type: string
+            example: '0001152'
+          positionKeySion:
+            description: identification number of the position
+            type: string
+            example: '0000001152'
+
+  GetCustomerDocumentResponse:
+    allOf:
+      - $ref: '#/definitions/BaseResponse'
+      - type: object
+        properties:
+          positionKeySion:
+            description: identification number of the position
+            type: string
+            example: '0000001152'
+          documents:
+            type: array
+            items:
+              $ref: '#/definitions/CustomerDocument'
+
+  CustomerDocument:
+    type: object
+    properties:
+      cardId:
+        $ref: '#/definitions/CardId'
+      customerDataSubscription:
+        $ref: '#/definitions/CustomerDataSubscription'
+      customerDocumentSubscription:
+        $ref: '#/definitions/CustomerDocumentSubscription'
+      address:
+        $ref: '#/definitions/AddressCustomerSubscription'
+
+  GetCustomerReliabilityResultRequest:
+    allOf:
+      - $ref: '#/definitions/BaseRequest'
+      - type: object
+        properties:
+          registryVerificationId:
+            description: registryVerificationId
+            type: string
+
+  GetCustomerReliabilityResultResponse:
+    allOf:
+      - $ref: '#/definitions/BaseResponse'
+      - type: object
+        properties:
+          registryVerificationId:
+            type: string
+            description: verificationId
+          companyDetails:
+            $ref: '#/definitions/CompanyDetails'
+          fraudRiskAnalyserScore:
+            type: string
+            description: fraudRiskScore
+          fraudRiskAlert:
+            type: array
+            items:
+              $ref: '#/definitions/FraudRiskAlert'
+          fraudRiskErrors:
+            type: array
+            items:
+              $ref: '#/definitions/ErrorResult'
+
+  VerifyCustomerReliabilityRequest:
+    allOf:
+      - $ref: '#/definitions/BaseRequest'
+      - type: object
+        properties:
+          customerData:
+            description: customer Data
+            $ref: '#/definitions/CustomerData'
+          addresses:
+            type: array
+            items:
+              $ref: '#/definitions/Address'
+          customerIdentificationDocument:
+            description: customer Data
+            $ref: '#/definitions/CustomerIdentificationDocument'
+          reportTypeCode:
+            type: string
+            description: "Report type required"
+            default: "BasicPF2"
+            example: "MediumPF21"
+
+  VerifyCustomerReliabilityResponse:
+    allOf:
+      - $ref: '#/definitions/BaseResponse'
+      - type: object
+        properties:
+          fraudRiskAlerts:
+            type: array
+            items:
+              $ref: '#/definitions/FraudRiskAlert'
+          fraudRiskAnalyserScore:
+            description: score from the fraudRiskAnalyser
+            type: string
+          fraudRiskAnalyserResult:
+            $ref: '#/definitions/FraudRiskAnalyserResult'
+          messageId:
+            description: message id
+            type: string
+          registryVerificationId:
+            description: id stored in db
+            type: string
+          fraudRiskErrors:
+            type: array
+            items:
+              $ref: '#/definitions/ErrorResult'
+          fraudRiskProfilingAlerts:
+            type: array
+            items:
+              $ref: '#/definitions/ProfilingAlerts'
+
+  GetCompanyReliabilityReportRequest:
+    allOf:
+      - $ref: '#/definitions/BaseRequest'
+      - type: object
+        properties:
+          companyData:
+            description: company Data
+            $ref: '#/definitions/CompanyBasicData'
+          individualCompanyData:
+            description: individual company data
+            $ref: '#/definitions/IndividualCompanyData'
+          addresses:
+            type: array
+            items:
+              $ref: '#/definitions/Address'
+          reportTypeCode:
+            type: string
+            description: "Report type required"
+            example: "FComCard"
+
+
+  GetCompanyReliabilityReportResponse:
+    allOf:
+      - $ref: '#/definitions/BaseResponse'
+      - type: object
+        properties:
+          company:
+            type: object
+            $ref: '#/definitions/Company'
+          beneficialOwners:
+            type: array
+            items:
+              $ref: '#/definitions/BeneficialOwner'
+          bankruptcyProceedings:
+            type: array
+            items:
+              $ref: '#/definitions/BankruptcyProceeding'
+          associates:
+            type: array
+            items:
+              $ref: '#/definitions/Associate'
+          rappresentatives:
+            type: array
+            items:
+              $ref: '#/definitions/Rappresentative'
+          fraudRiskErrors:
+            type: array
+            items:
+              $ref: '#/definitions/ErrorResult'
+
+  CustomerDocumentSubscription:
+    allOf:
+      - $ref: '#/definitions/CustomerIdentificationDocument'
+      - type: object
+        properties:
+          extendedDocumentName:
+            description: extended document name
+            type: string
+            example: 'TESSERA POSTALE'
+          otherDocumentType:
+            description: documentType
+            type: string
+            example: '05'
+          releaseDate:
+            description: release date
+            type: string
+            format: date
+          documentIssuer:
+            description: document issuer
+            type: string
+            example: 'COMUNE'
+          issueNationUifCode:
+            description: document issuer uic code
+            type: string
+            example: '086'
+          issueNationIsoCode:
+            description: document issuer iso code
+            type: string
+            example: 'IT'
+
+  CustomerIdentificationDocument:
+    type: object
+    properties:
+      documentType:
+        description: documentType
+        type: string
+        enum: [1,2,3,4]
+      documentNumber:
+        description: documentNumber
+        type: string
+      issueLocation:
+        description: issueLocation
+        type: string
+      issueProvince:
+        description: issueProvince
+        type: string
+      issueNation:
+        description: issueNation
+        type: string
+      issueDate:
+        description: issueDate
+        type: string
+        format: date
+      expirationDate:
+        description: expirationDate
+        type: string
+        format: date
+
+  Address:
+    type: object
+    properties:
+      city:
+        description: residenceCity
+        type: string
+      province:
+        description: residenceProvince
+        type: string
+      nation:
+        description: residenceNation
+        type: string
+      street:
+        description: residenceStreet
+        type: string
+      streetNumber:
+        description: residenceCivic
+        type: string
+      postalCode:
+        description: residencePostalCode
+        type: string
+
+  FraudRiskAnalyserResult:
+    type: object
+    properties:
+      range:
+        description: score band
+        type: string
+      description:
+        description: score description
+        type: string
+      score:
+        description: score Point value
+        type: string
+
+  ProfilingAlerts:
+    type: object
+    properties:
+      description:
+        description: anti money laundering profiling alerts description
+        type: string
+      code:
+        description: anti money laundering profiling alerts code
+        type: string
+
+  AddressCustomerSubscription:
+    allOf:
+      - $ref: '#/definitions/Address'
+      - type: object
+        properties:
+          addressNationUifCode:
+            description: document issuer uic code
+            type: string
+            example: '086'
+          addresNationIsoCode:
+            description: document issuer iso code
+            type: string
+            example: 'IT'
+
+  FraudRiskAlert:
+    type: object
+    properties:
+      code:
+        description: code
+        type: string
+      description:
+        description: description
+        type: string
+
+  ErrorResult:
+    type: object
+    properties:
+      code:
+        description: code
+        type: string
+      description:
+        description: description
+        type: string
+      type:
+        description: type
+        type: string
+      crifErrorCode:
+        description: This code is generated by concatenating E + type + code. The code is padded with 0s to the left to 3 chars.
+        type: string
+
+  CustomerData:
+    type: object
+    properties:
+      name:
+        description: name of the card owner
+        type: string
+        example: Mario
+      surname:
+        description: surname of the card owner
+        type: string
+        example: Rossi
+      fiscalCode:
+        description: fiscal code of the card owner
+        type: string
+        example: RSSMRA81M18D121R
+      sex:
+        description: sex of card owner [F,M]
+        type: string
+        example: M
+      birthDate:
+        description: card owner's date of birth
+        type: string
+        format: date
+        example: '2000-10-02'
+      birthCity:
+        description: card owner's city of birth
+        type: string
+        example: Sesto San Giovanni
+      birthProvince:
+        description: card owner's province of birth (only italian customers)
+        type: string
+        example: MI
+      birthNation:
+        description: card owner's nation of birth
+        type: string
+        example: Italy
+
+  CustomerDataSubscription:
+    allOf:
+      - $ref: '#/definitions/CustomerData'
+      - type: object
+        properties:
+          birthNationUifCode:
+            description : uif code of nation
+            type: string
+            example: '086'
+          birthNationIsoCode:
+            description : iso code of nation
+            type: string
+            example: IT
+
+  CompanyDetails:
+    type: object
+    description: CompanyDetails
+    properties:
+      mtCompany:
+        description: mtCompany
+        type: string
+        example: NEXI
+      mtCompanyGroup:
+        description: mtCompanyGroup
+        type: string
+        example: NEXI
+      mtPartner:
+        description: mtPartner
+        type: string
+        example: NEXI
+
+  IndividualCompanyData:
+    allOf:
+      - $ref: '#/definitions/CustomerData'
+      - type: object
+        properties:
+          rsd:
+            description: company rsd
+            type: string
+            example: AIR TRADING
+          reaCode:
+            description: company rea code
+            type: string
+            example: 1607692
+          cciaaProvince:
+            description: cciaa province of company
+            type: string
+            example: MI
+          fiscalCode:
+            description: company fiscal code
+            type: string
+            example: 02403510924
+
+  CompanyBasicData:
+    type: object
+    properties:
+      rsd:
+        description: company rsd
+        type: string
+        example: AIR TRADING
+      reaCode:
+        description: company rea code
+        type: string
+        example: 1607692
+      cciaaProvince:
+        description: cciaa province of company
+        type: string
+        example: MI
+      fiscalCode:
+        description: company fiscal code
+        type: string
+        example: 02403510924
+
+  Company:
+    type: object
+    properties:
+      basicData:
+        type: object
+        $ref: '#/definitions/CompanyBasicData'
+      detailsData:
+        type: object
+        $ref: '#/definitions/CompanyDetailsData'
+
+  CompanyDetailsData:
+    type: object
+    properties:
+      cribisStatus:
+        description: cribis company status
+        type: string
+        example:
+      atecoCode:
+        description: ateco code company
+        type: string
+        example:
+      legalForm:
+        description: company legal Form
+        type: string
+        example:
+      startupYear:
+        description: company startup Year
+        type: string
+        example: 2020
+      annualRevenue:
+        description: company annual revenue
+        type: string
+        example:
+      annualRevenueYear:
+        description: company annual revenue year
+        type: string
+        example: 2020
+      annualRevenueProvenance:
+        description: company annual revenue provenance
+        type: string
+        example:
+      profitValue:
+        description: company profit value
+        type: string
+        example:
+      raeCode:
+        description: company rae code
+        type: string
+        example:
+      raeDescription:
+        description: company rae description
+        type: string
+        example:
+      saeCode:
+        description: company sae code
+        type: string
+        example:
+      saeDescription:
+        description: company sae description
+        type: string
+        example:
+      flagPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagProtests:
+        description: flag that indicate presence of protests
+        type: boolean
+        example:
+      flagBankruptcyProceedings:
+        description: flag that indicate presence of bankruptcy proceedings
+        type: boolean
+        example:
+      flagAssociates:
+        description: flag that indicate presence of Associates
+        type: boolean
+        example:
+      activityStatus:
+        description: company activity status
+        type: string
+        example:
+      status:
+        description: company status
+        type: string
+        example:
+      flagRegistered:
+        description: flag that indicate if company is registered
+        type: boolean
+        example:
+      ateco07Classifications:
+        type: array
+        items:
+          $ref: '#/definitions/Ateco07Classification'
+      flagExistBankruptcyProceedings.:
+        description: flag that indicate extisting of bankruptcy proceedings
+        type: boolean
+        example:
+      flagExistPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagExistVerifiedProtests:
+        description: flag that indicate presence of VerifiedProtests
+        type: boolean
+        example:
+      flagExistHomonimousProtests:
+        description: flag that indicate presence of Homonimous Protests
+        type: boolean
+        example:
+      otherRiskIndicators:
+        type: array
+        items:
+          $ref: '#/definitions/RiskIndicator'
+      flagCorporateStructure:
+        description: flag corporate structure
+        type: boolean
+        example:
+      flagExistNews:
+        description: flag exist news
+        type: boolean
+        example:
+      balance:
+        type: object
+        $ref: '#/definitions/Balance'
+      flagCommercialPayments:
+        description: flag commercial payments
+        type: boolean
+        example:
+      bankCreditSuggested:
+        description: bank credit suggested
+        type: string
+        example:
+      failure:
+        description: failure
+        type: string
+        example:
+      delinquency:
+        description: delinquency
+        type: string
+        example:
+      paydex:
+        description: paydex
+        type: string
+        example:
+      flagExtraordinaryRedundancyFund:
+        description: flag extraordinary redundancy fund
+        type: boolean
+        example:
+      flagGroupsBelonging:
+        description: flag groups belonging
+        type: boolean
+        example:
+      shareCapital:
+        description: share capital
+        type: object
+        $ref: '#/definitions/Amount'
+      address:
+        type: object
+        $ref: '#/definitions/Address'
+
+
+
+  Balance:
+    type: object
+    properties:
+      balanceSheet:
+        type: array
+        items:
+          $ref: '#/definitions/AnnualRevenue'
+      annualRevenue:
+        type: array
+        items:
+          $ref: '#/definitions/AnnualRevenue'
+      profits:
+        type: array
+        items:
+          $ref: '#/definitions/AnnualRevenue'
+      profitMargins:
+        type: array
+        items:
+          $ref: '#/definitions/AnnualRevenue'
+      stockholdersEquity:
+        type: array
+        items:
+          $ref: '#/definitions/AnnualRevenue'
+      operatingRevenues:
+        type: array
+        items:
+          $ref: '#/definitions/AnnualRevenue'
+
+  AnnualRevenue:
+    type: object
+    description: risk indicator
+    properties:
+      amount:
+        $ref: '#/definitions/Amount'
+      date:
+        description: date
+        type: string
+        format: yyyy-mm-dd
+        example:
+
+  BankruptcyProceeding:
+    type: object
+    description: bankruptcy Proceedings
+    properties:
+      code:
+        description: bankruptcy Proceedings code
+        type: string
+        example:
+      description:
+        description: bankruptcy Proceedings description
+        type: string
+        example:
+      startDate:
+        description: date
+        type: string
+        format: yyyy-mm-dd
+        example:
+      endDate:
+        description: date
+        type: string
+        format: yyyy-mm-dd
+        example:
+
+  BeneficialOwner:
+    type: object
+    properties:
+      companyInfo:
+        type: object
+        $ref: '#/definitions/CompanyBasicData'
+      anagraphicalData:
+        type: object
+        $ref: '#/definitions/CustomerData'
+      address:
+        type: object
+        $ref : '#/definitions/Address'
+      crifNumber:
+        description: crif number
+        type: string
+        example: 12345
+      roleCode:
+        description: role code of beneficial owner
+        type: string
+        example:
+      roleDescription:
+        description: role description of beneficial owner
+        type: string
+        example:
+      cab:
+        description: role description of beneficial owner
+        type: string
+        example:
+      cciaaCode:
+        description: cciaa code beneficial owner
+        type: string
+        example:
+      reaCode:
+        description: rea code beneficial owner
+        type: string
+        example:
+      legalNature:
+        description: legal nature of beneficial owner
+        type: string
+        example:
+      companyParticipation:
+        description: company participation of beneficial owner
+        type: string
+        example:
+      flagPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagProtests:
+        description: flag that indicate presence of protests
+        type: boolean
+        example:
+  Ateco07Classification:
+    type: object
+    description: Ateco 07 classification
+    properties:
+      ateco:
+        description: ateco code
+        type: string
+        example:
+      classification:
+        description: classification of ateco
+        type: string
+        example:
+  RiskIndicator:
+    type: object
+    description: risk indicator
+    properties:
+      code:
+        description: risk code
+        type: string
+        example:
+      description:
+        description: risk description
+        type: string
+        example:
+  Associate:
+    type: object
+    properties:
+      crifNumber:
+        description: crif number
+        type: string
+        example: 12345
+      companyInfo:
+        type: object
+        $ref: '#/definitions/CompanyBasicData'
+      companyAddress:
+        type: object
+        $ref: '#/definitions/Address'
+      anagraphicalData:
+        type: object
+        $ref: '#/definitions/CustomerData'
+      address:
+        type: object
+        $ref : '#/definitions/Address'
+      shareCapital:
+        type: object
+        description: share capital
+        $ref: '#/definitions/Amount'
+      companyFilingDate:
+        description: filing date of company
+        type: string
+        example:
+      ownershipType:
+        description: ownership type in company
+        type: string
+        example :
+      capitalStake:
+        description: capital stake in company
+        $ref: '#/definitions/Amount'
+      capitalStakePercentage:
+        description: capital stake percentage in company
+        type: string
+      flagPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagProtests:
+        description: flag that indicate presence of protests
+        type: boolean
+        example:
+      flagExistBankruptcyProceedings.:
+        description: flag that indicate extisting of bankruptcy proceedings
+        type: boolean
+        example:
+      flagExistPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagExistVerifiedProtests:
+        description: flag that indicate presence of VerifiedProtests
+        type: boolean
+        example:
+      flagExistHomonimousProtests:
+        description: flag that indicate presence of Homonimous Protests
+        type: boolean
+        example:
+      flagExistNews:
+        description: flag exist news
+        type: boolean
+        example:
+  Rappresentative:
+    type: object
+    properties:
+      crifNumber:
+        description: crif number
+        type: string
+        example: 12345
+      companyInfo:
+        type: object
+        $ref: '#/definitions/CompanyBasicData'
+      companyAddress:
+        type: object
+        $ref: '#/definitions/Address'
+      anagraphicalData:
+        type: object
+        $ref: '#/definitions/CustomerData'
+      address:
+        type: object
+        $ref : '#/definitions/Address'
+      addressDetails:
+        type: object
+        $ref : '#/definitions/AddressDetails'
+      mandates:
+        type: array
+        items :
+          $ref: '#/definitions/Mandate'
+      administrator:
+        description: administrator
+        type: string
+        example:
+      flagSignPower:
+        description: sign power
+        type: boolean
+        example:
+      flagRapresentative:
+        description: flag rapresentative
+        type: boolean
+        example:
+      capitalStake:
+        description: capital stake in company
+        $ref: '#/definitions/Amount'
+      capitalStakePercentage:
+        description: capital stake percentage in company
+        type: string
+      totalShare:
+        description: total share in company
+        $ref: '#/definitions/Amount'
+
+      flagLegalRapresentative:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+
+      flagPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagProtests:
+        description: flag that indicate presence of protests
+        type: boolean
+        example:
+      flagExistBankruptcyProceedings.:
+        description: flag that indicate extisting of bankruptcy proceedings
+        type: boolean
+        example:
+      flagExistPrejudicialDeeds:
+        description: flag that indicate presence of Prejudicial Deeds
+        type: boolean
+        example:
+      flagExistVerifiedProtests:
+        description: flag that indicate presence of VerifiedProtests
+        type: boolean
+        example:
+      flagExistHomonimousProtests:
+        description: flag that indicate presence of Homonimous Protests
+        type: boolean
+        example:
+      flagExistNews:
+        description: flag exist news
+        type: boolean
+        example:
+  Amount:
+    type: object
+    description: define amount and currency values
+    properties:
+      value:
+        description: amount value
+        type: number
+        example: 23.78
+      currency:
+        description: currency value
+        type: string
+        example: EUR
+  AddressDetails:
+    type: object
+    properties:
+      municipality:
+        description: municipality
+        type : string
+      citizenship:
+        description: citizenship
+        type : string
+      others:
+        description: other information about address
+        type : string
+  Mandate:
+    type: object
+    description: administrative mandate
+    properties:
+      code:
+        description: code of admin mandate
+        type: number
+        example: 23.78
+      description:
+        description: description of admin mandate
+        type: string
+        example: EUR
+      startDate:
+        description: start date of admin mandate
+        type: string
+        format: dd/mm/yyyy
+      endDate:
+        description: start date of admin mandate
+        type: string
+        format: dd/mm/yyyy
+  CardId:
+    type: object
+    description: card identification
+    properties:
+      value:
+        description: card identification number
+        type: string
+        example: '4647711700000'
+      type:
+        description: 'card identification type [PAN, PAN_ALIAS]'
+        type: string
+        example: PAN
+      processor:
+        description: 'card processor S for SIA , E for Equens'
+        type: string
+        example: S
+      bin:
+        description: first 6 characters of card number
+        type: string
+      tail:
+        description: last 4 characters of card number
+        type: string
+  Result:
+    description: object used to represent the result execution status
+    type: object
+    properties:
+      code:
+        description: >-
+          Operation error code. This will be zero for a success response and
+          non-zero in case of an error.
+        type: string
+        example: '0'
+      description:
+        description: Message for the invoked API
+        type: string
+        example: success
+      infos:
+        description: Additional informations
+        type: array
+        items:
+          $ref: '#/definitions/ResultInfo'
+  ResultInfo:
+    description: Object used to represent the additional info of result.
+    type: object
+    properties:
+      code:
+        description: Operation code.
+        type: string
+        example: '0'
+      source:
+        description: Source of given info message.
+        type: string
+      description:
+        description: Info message.
+        type: string
+        example: success
+  BaseResponse:
+    #discriminator: 'no'
+    type: object
+    properties:
+      result:
+        $ref: '#/definitions/Result'
+  BaseRequest:
+    #discriminator: 'no'
+    type: object
+parameters:
+  MT_APPLICATION:
+    name: MT_APPLICATION
+    in: header
+    description: |-
+      technical code of the application calling the service. Needs to be agreed with the service provider
+    type: string
+    required: true
+  MT_USER:
+    name: MT_USER
+    in: header
+    description: 'user identifier of the request (username , userid , ...)'
+    type: string
+    required: true
+  MT_CHANNEL:
+    name: MT_CHANNEL
+    in: header
+    description: 'channel code of the request. Needs to be agreed with the service provider '
+    type: string
+    required: true
+  MT_COMPANY_GROUP:
+    name: MT_COMPANY_GROUP
+    in: header
+    description: 'Company Group identification code. Needs to be agreed with the service provider'
+    type: string
+    required: true
+  MT_PARTNER:
+    name: MT_PARTNER
+    in: header
+    description: |-
+      Partner belonging to the company.
+      It describe a subset of NEXI customer related to the specified partner. Needs to be agreed with the service provider
+    type: string
+    required: true
+  MT_COMPANY:
+    name: MT_COMPANY
+    in: header
+    description: 'Company code. Needs to be agreed with the service provider'
+    type: string
+    required: true
+  MT_REQUEST_ID:
+    name: MT_REQUEST_ID
+    in: header
+    description: >-
+      Random unique identification code of the request set by the client.
+      Example UUID [8119c0ce-17f2-11e8-accf-0ed5f89f718b]
+    type: string
+    required: true
+  MT_SESSION_ID:
+    name: MT_SESSION_ID
+    in: header
+    description: >-
+      Random unique identification code identifying a single session of the
+      client. Example JSESSIONID [b272023f-05ca-44cb-96cd-6d72c72d03f9]
+    type: string
+    required: true

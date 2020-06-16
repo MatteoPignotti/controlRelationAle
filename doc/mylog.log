@@ -1,0 +1,788 @@
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - fe731cd9-b213-4281-b1d1-2c500a58bf1a
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - ea928517-1613-447d-b4f7-3505b23477a8
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 01328570831
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: ME
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - bda7f384-6edd-42c2-9fd5-6ae0bd6e1811
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - 500ed4f8-2f7d-4416-948c-045ee88e4f6f
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 01495940460
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: LU
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 83d3f373-5638-4ebc-bc86-e83e354c93d1
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - c9ca8c90-5355-48d6-9a10-c3054c67907d
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 01364620037
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: VB
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 397c5eb8-fae4-404d-ad0d-12a486c66aa8
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - 2371cf72-ed11-47d7-8543-3a6387212426
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 05808100829
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: PA
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 60028afa-dbd3-41ea-903c-b616e99ae3b9
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - 13ca5a4f-929e-4970-bcbd-a93caeaab420
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 09730660017
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - a2f4c844-ba0b-43fd-bd8b-7277a1042f5f
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - 44f4f440-c2c0-458f-b2a5-d86f6ee4f6ae
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 00754150100
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: GE
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 3df5d0d9-8369-4418-a78d-b71b25da4412
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - adc3873b-a1f0-46f3-9cf4-48d8698ae47c
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 02283070502
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: PI
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 19a6e2ec-5476-4515-b0e6-621af20d0947
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - 4cf57599-b4b6-4b0d-8660-fe76febd218c
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 02624920803
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: RC
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 78f9c8b5-51fe-4b4b-943e-0f1e13b044df
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - 12507d8a-370f-4d89-8681-ef5f71a5a524
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 02863160301
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: UD
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 64d02bf9-8bce-4407-bdcc-1ef61e1e50bf
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - f8fdb48a-0cf1-481e-af9f-5a4a6cc3a80f
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 04038880284
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: PD
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:54 - 6ece551b-d6f7-4d2a-bf4b-becee500c4d4
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:55 - f9cfe261-91b4-4c87-be10-289e4466eccf
+2020-06-15 17:48:38 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 07751840963
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: MI
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - 0a07a6d8-6f64-40b6-9a83-5cd4f51b70a9
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 0185150c-d8ce-475b-b7a3-f4da07171ff1
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 01193460217
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: BZ
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - b7b9ebb5-160e-4828-adeb-02297653cdf9
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 29ead330-627e-44c5-95ed-022cbbfb6435
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 06579620011
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TP
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - ee48e375-7ba4-41c7-b4ca-db742b0dd040
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - a4988e18-1675-4feb-93b4-69cc2b4d0d58
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 02302260068
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: AL
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - aeffba76-566f-4d18-9f9b-6551b173f6ea
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - f0cbcfd0-1e52-4321-a969-a6df6c59ac45
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 05779490480
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: FI
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - 49756e96-4f1b-46cd-83c1-e81b773fbf05
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 08837504-3ba8-45d8-afc1-ec82d7d08e5e
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 05222290289
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: PD
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - f6be64b6-d9f9-4a08-82c3-96b04fa4e65d
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - b78e7399-a55b-469a-a26b-d2e2be695d57
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 00079470142
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: SO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - b67bf0b6-e5ba-40f7-8928-01012fb75b14
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 19366fab-2f2f-4e2d-8eec-1c6fd363874a
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 00931260426
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: AN
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - 9e62a88c-1b22-40ec-a4dd-c6120d377ac8
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 7aadd503-0a54-4004-92ef-18368ec74bb9
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 01330080621
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: BN
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - 54c3b95c-2204-4b4d-af72-a6cf1b706a98
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 61389a50-ce00-4494-95df-04fe227dcfec
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 05531290483
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: FI
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - bb8abd81-49fe-49d6-b92e-ea37bed50336
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 76f94883-3702-42c8-bbbc-38cd85ce70a8
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 01706770896
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: SR
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - 01b6c973-b5b9-45ca-bf66-5a86cb4d874e
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - 3f241407-3e72-40fb-a17e-af6c32beeedf
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 11415490157
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: MI
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:54 - b3fb099a-5002-4805-bd16-b78964fe93c4
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:55 - f53b3277-5cb2-4d93-ab1e-18ad222515d5
+2020-06-15 17:48:39 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 02879920615
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: CE
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:54 - 75cf1016-6bc7-4850-877e-daf2c11b7422
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:55 - 7f323c06-3096-4bde-8176-5379082ae592
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 07251701210
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: NA
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:54 - 8bea2c21-9957-4b3d-8ebc-133740156b81
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:55 - f5fb340d-6ea6-46ba-b7d3-65f96b0639f0
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 02198360733
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: BR
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:54 - 9c06de75-d1b1-409f-a657-2c650b6c88f1
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:55 - 94859733-fddb-4d45-ba45-0b7c0a087d29
+2020-06-15 17:48:40 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 06448820966
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: MI
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 17:49:15 INFO  App:42 - file di properties caricati correttamente...
+2020-06-15 17:49:15 INFO  App:43 - creo cartelle input/output...
+2020-06-15 17:49:15 INFO  RelationControlProcessor:91 - Batch process Attivato
+2020-06-15 17:49:15 INFO  SelectFromTite:27 - Avvio procedura Select delle societa' da inviare a crif...
+2020-06-15 17:49:15 INFO  DbQueryObject:59 - Query createRecoveryTiteSelect creata con successo...SELECT * FROM TBSI_NPF_ACQ_NO_REL_SOC_TITE WHERE FL_ELABORATO IS NULL OR (FL_ELABORATO = 'N' AND NU_RETRY<3)
+2020-06-15 17:49:17 INFO  DbSendQuery:73 - invio query riuscito e lista recovery creata con successo
+2020-06-15 17:49:17 INFO  RelationControlProcessor:54 - Creazione csv locale: ---> C:\Users\Matte\OneDrive\Desktop\controlRelation\output\FirstMappingResult.csv
+2020-06-15 17:49:17 INFO  AMLCSVWriter:46 - scrittura file terminata
+2020-06-15 17:49:17 INFO  RelationControlProcessor:58 - scritttura avvenuta correttamente
+2020-06-15 17:49:17 INFO  RelationControlProcessor:48 - Avvio procedura FirsMapping
+2020-06-15 17:49:17 INFO  FirstMapping:26 - Tentativo Connessione al Db e invio query First Mapping...
+2020-06-15 17:49:17 INFO  DbQueryObject:36 - Query creata con successo...
+2020-06-15 17:49:17 INFO  DbQueryObject:37 - SELECT DISTINCT relSoc.co_key_ext AS co_soc, relSoc.co_proc as co_proc, pga.co_piva AS co_piva, pga.co_fis AS co_fis_soc, pga.id_sogg AS id_sogg_soc, null as fl_elaborato, sysdate as dt_ins FROM tbsi_relazione relSoc, tbsi_relazione relPv, tbsi_delegati_tite relDel, tbsi_pers_giu_ana pga, tbsi_adverifica_pf_ana advPfAna, TBSI_NPF_ACQ_NO_REL_SOC_TITE nrt WHERE 1=1 AND relSoc.co_tp_rel = 11 AND relSoc.id_rel = relPv.id_rel_coll AND relPv.co_tp_rel = 13AND((relSoc.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relSoc.dt_fin_vld, SYSDATE+1) > SYSDATE) OR (relPv.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relPv.dt_fin_vld, SYSDATE+1) > SYSDATE))AND relSoc.id_sogg = relDel.id_sogg_soc AND relDel.co_tp_rel_delegato = 21 AND relSoc.id_sogg = pga.id_sogg AND relDel.id_sogg_delegato = advPfAna.id_sogg AND advPfAna.co_tp_rel_soc_tite IS NULL AND relSoc.co_key_ext=nrt.co_soc(+)AND relSoc.co_proc=nrt.co_proc(+) AND nrt.id_sogg_soc IS NULL
+2020-06-15 17:49:20 INFO  DbSendQuery:47 - query first mapping creata inviata con successo
+2020-06-15 17:49:20 INFO  RelationControlProcessor:112 - Nessun inserimento da fare nella tabella TBSI_TITE
+2020-06-15 17:49:20 INFO  RelationControlProcessor:71 - Collegamento con interfaccia swagger Rest Crif
+2020-06-15 17:49:20 INFO  ListRequestCreator:29 - inizio conversione TableEntityTite---->Request
+2020-06-15 17:49:20 INFO  RequestResponseExecutor:61 - ApiClient attivata
+2020-06-15 17:49:21 INFO  RequestResponseExecutor:54 - 9dc5efb6-4ac3-44c1-bf23-69f0b17fa043
+2020-06-15 17:49:21 INFO  RequestResponseExecutor:55 - c903d771-d906-4546-95cb-46617b997d90
+2020-06-15 17:49:21 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 11280380012
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:02:01 INFO  App:42 - file di properties caricati correttamente...
+2020-06-15 18:02:01 INFO  App:43 - creo cartelle input/output...
+2020-06-15 18:02:01 INFO  RelationControlProcessor:91 - Batch process Attivato
+2020-06-15 18:02:01 INFO  SelectFromTite:27 - Avvio procedura Select delle societa' da inviare a crif...
+2020-06-15 18:02:01 INFO  DbQueryObject:59 - Query createRecoveryTiteSelect creata con successo...SELECT * FROM TBSI_NPF_ACQ_NO_REL_SOC_TITE WHERE FL_ELABORATO IS NULL OR (FL_ELABORATO = 'N' AND NU_RETRY<3)
+2020-06-15 18:02:03 INFO  DbSendQuery:73 - invio query riuscito e lista recovery creata con successo
+2020-06-15 18:02:03 INFO  RelationControlProcessor:54 - Creazione csv locale: ---> C:\Users\Matte\OneDrive\Desktop\controlRelation\output\FirstMappingResult.csv
+2020-06-15 18:02:03 INFO  AMLCSVWriter:46 - scrittura file terminata
+2020-06-15 18:02:03 INFO  RelationControlProcessor:58 - scritttura avvenuta correttamente
+2020-06-15 18:02:03 INFO  RelationControlProcessor:48 - Avvio procedura FirsMapping
+2020-06-15 18:02:03 INFO  FirstMapping:26 - Tentativo Connessione al Db e invio query First Mapping...
+2020-06-15 18:02:03 INFO  DbQueryObject:36 - Query creata con successo...
+2020-06-15 18:02:03 INFO  DbQueryObject:37 - SELECT DISTINCT relSoc.co_key_ext AS co_soc, relSoc.co_proc as co_proc, pga.co_piva AS co_piva, pga.co_fis AS co_fis_soc, pga.id_sogg AS id_sogg_soc, null as fl_elaborato, sysdate as dt_ins FROM tbsi_relazione relSoc, tbsi_relazione relPv, tbsi_delegati_tite relDel, tbsi_pers_giu_ana pga, tbsi_adverifica_pf_ana advPfAna, TBSI_NPF_ACQ_NO_REL_SOC_TITE nrt WHERE 1=1 AND relSoc.co_tp_rel = 11 AND relSoc.id_rel = relPv.id_rel_coll AND relPv.co_tp_rel = 13AND((relSoc.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relSoc.dt_fin_vld, SYSDATE+1) > SYSDATE) OR (relPv.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relPv.dt_fin_vld, SYSDATE+1) > SYSDATE))AND relSoc.id_sogg = relDel.id_sogg_soc AND relDel.co_tp_rel_delegato = 21 AND relSoc.id_sogg = pga.id_sogg AND relDel.id_sogg_delegato = advPfAna.id_sogg AND advPfAna.co_tp_rel_soc_tite IS NULL AND relSoc.co_key_ext=nrt.co_soc(+)AND relSoc.co_proc=nrt.co_proc(+) AND nrt.id_sogg_soc IS NULL
+2020-06-15 18:02:07 INFO  DbSendQuery:47 - query first mapping creata inviata con successo
+2020-06-15 18:02:07 INFO  RelationControlProcessor:112 - Nessun inserimento da fare nella tabella TBSI_TITE
+2020-06-15 18:02:07 INFO  RelationControlProcessor:71 - Collegamento con interfaccia swagger Rest Crif
+2020-06-15 18:02:07 INFO  ListRequestCreator:29 - inizio conversione TableEntityTite---->Request
+2020-06-15 18:02:07 INFO  RequestResponseExecutor:61 - ApiClient attivata
+2020-06-15 18:02:07 INFO  RequestResponseExecutor:54 - db9a0638-d26e-4ee6-bed8-dda69611cd8e
+2020-06-15 18:02:07 INFO  RequestResponseExecutor:55 - 476cb51b-e7ea-44c2-8a3c-3eff9fdca057
+2020-06-15 18:02:07 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 11280380012
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:02:17 INFO  RequestResponseExecutor:54 - 55653321-23d3-4153-9190-4930bb147037
+2020-06-15 18:02:17 INFO  RequestResponseExecutor:55 - 141f2dab-a498-4d4d-b716-f3ccfd886fb4
+2020-06-15 18:02:17 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 00569960560
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: VT
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:02:38 INFO  App:42 - file di properties caricati correttamente...
+2020-06-15 18:02:38 INFO  App:43 - creo cartelle input/output...
+2020-06-15 18:02:38 INFO  RelationControlProcessor:91 - Batch process Attivato
+2020-06-15 18:02:38 INFO  SelectFromTite:27 - Avvio procedura Select delle societa' da inviare a crif...
+2020-06-15 18:02:38 INFO  DbQueryObject:59 - Query createRecoveryTiteSelect creata con successo...SELECT * FROM TBSI_NPF_ACQ_NO_REL_SOC_TITE WHERE FL_ELABORATO IS NULL OR (FL_ELABORATO = 'N' AND NU_RETRY<3)
+2020-06-15 18:02:40 INFO  DbSendQuery:73 - invio query riuscito e lista recovery creata con successo
+2020-06-15 18:02:40 INFO  RelationControlProcessor:54 - Creazione csv locale: ---> C:\Users\Matte\OneDrive\Desktop\controlRelation\output\FirstMappingResult.csv
+2020-06-15 18:02:40 INFO  AMLCSVWriter:46 - scrittura file terminata
+2020-06-15 18:02:40 INFO  RelationControlProcessor:58 - scritttura avvenuta correttamente
+2020-06-15 18:02:40 INFO  RelationControlProcessor:48 - Avvio procedura FirsMapping
+2020-06-15 18:02:40 INFO  FirstMapping:26 - Tentativo Connessione al Db e invio query First Mapping...
+2020-06-15 18:02:40 INFO  DbQueryObject:36 - Query creata con successo...
+2020-06-15 18:02:40 INFO  DbQueryObject:37 - SELECT DISTINCT relSoc.co_key_ext AS co_soc, relSoc.co_proc as co_proc, pga.co_piva AS co_piva, pga.co_fis AS co_fis_soc, pga.id_sogg AS id_sogg_soc, null as fl_elaborato, sysdate as dt_ins FROM tbsi_relazione relSoc, tbsi_relazione relPv, tbsi_delegati_tite relDel, tbsi_pers_giu_ana pga, tbsi_adverifica_pf_ana advPfAna, TBSI_NPF_ACQ_NO_REL_SOC_TITE nrt WHERE 1=1 AND relSoc.co_tp_rel = 11 AND relSoc.id_rel = relPv.id_rel_coll AND relPv.co_tp_rel = 13AND((relSoc.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relSoc.dt_fin_vld, SYSDATE+1) > SYSDATE) OR (relPv.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relPv.dt_fin_vld, SYSDATE+1) > SYSDATE))AND relSoc.id_sogg = relDel.id_sogg_soc AND relDel.co_tp_rel_delegato = 21 AND relSoc.id_sogg = pga.id_sogg AND relDel.id_sogg_delegato = advPfAna.id_sogg AND advPfAna.co_tp_rel_soc_tite IS NULL AND relSoc.co_key_ext=nrt.co_soc(+)AND relSoc.co_proc=nrt.co_proc(+) AND nrt.id_sogg_soc IS NULL
+2020-06-15 18:02:44 INFO  DbSendQuery:47 - query first mapping creata inviata con successo
+2020-06-15 18:02:44 INFO  RelationControlProcessor:112 - Nessun inserimento da fare nella tabella TBSI_TITE
+2020-06-15 18:02:44 INFO  RelationControlProcessor:71 - Collegamento con interfaccia swagger Rest Crif
+2020-06-15 18:02:44 INFO  ListRequestCreator:29 - inizio conversione TableEntityTite---->Request
+2020-06-15 18:02:44 INFO  RequestResponseExecutor:61 - ApiClient attivata
+2020-06-15 18:02:44 INFO  RequestResponseExecutor:54 - 2ff2de17-b8ab-42e1-8552-d9824ceff77b
+2020-06-15 18:02:44 INFO  RequestResponseExecutor:55 - 75364c52-4842-469f-b2c3-d7b1f1b138f9
+2020-06-15 18:02:44 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 11280380012
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:03:45 INFO  App:42 - file di properties caricati correttamente...
+2020-06-15 18:03:45 INFO  App:43 - creo cartelle input/output...
+2020-06-15 18:03:45 INFO  RelationControlProcessor:91 - Batch process Attivato
+2020-06-15 18:03:45 INFO  SelectFromTite:27 - Avvio procedura Select delle societa' da inviare a crif...
+2020-06-15 18:03:45 INFO  DbQueryObject:59 - Query createRecoveryTiteSelect creata con successo...SELECT * FROM TBSI_NPF_ACQ_NO_REL_SOC_TITE WHERE FL_ELABORATO IS NULL OR (FL_ELABORATO = 'N' AND NU_RETRY<3)
+2020-06-15 18:03:47 INFO  DbSendQuery:73 - invio query riuscito e lista recovery creata con successo
+2020-06-15 18:03:47 INFO  RelationControlProcessor:54 - Creazione csv locale: ---> C:\Users\Matte\OneDrive\Desktop\controlRelation\output\FirstMappingResult.csv
+2020-06-15 18:03:47 INFO  AMLCSVWriter:46 - scrittura file terminata
+2020-06-15 18:03:47 INFO  RelationControlProcessor:58 - scritttura avvenuta correttamente
+2020-06-15 18:03:47 INFO  RelationControlProcessor:48 - Avvio procedura FirsMapping
+2020-06-15 18:03:47 INFO  FirstMapping:26 - Tentativo Connessione al Db e invio query First Mapping...
+2020-06-15 18:03:47 INFO  DbQueryObject:36 - Query creata con successo...
+2020-06-15 18:03:47 INFO  DbQueryObject:37 - SELECT DISTINCT relSoc.co_key_ext AS co_soc, relSoc.co_proc as co_proc, pga.co_piva AS co_piva, pga.co_fis AS co_fis_soc, pga.id_sogg AS id_sogg_soc, null as fl_elaborato, sysdate as dt_ins FROM tbsi_relazione relSoc, tbsi_relazione relPv, tbsi_delegati_tite relDel, tbsi_pers_giu_ana pga, tbsi_adverifica_pf_ana advPfAna, TBSI_NPF_ACQ_NO_REL_SOC_TITE nrt WHERE 1=1 AND relSoc.co_tp_rel = 11 AND relSoc.id_rel = relPv.id_rel_coll AND relPv.co_tp_rel = 13AND((relSoc.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relSoc.dt_fin_vld, SYSDATE+1) > SYSDATE) OR (relPv.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relPv.dt_fin_vld, SYSDATE+1) > SYSDATE))AND relSoc.id_sogg = relDel.id_sogg_soc AND relDel.co_tp_rel_delegato = 21 AND relSoc.id_sogg = pga.id_sogg AND relDel.id_sogg_delegato = advPfAna.id_sogg AND advPfAna.co_tp_rel_soc_tite IS NULL AND relSoc.co_key_ext=nrt.co_soc(+)AND relSoc.co_proc=nrt.co_proc(+) AND nrt.id_sogg_soc IS NULL
+2020-06-15 18:03:50 INFO  DbSendQuery:47 - query first mapping creata inviata con successo
+2020-06-15 18:03:51 INFO  RelationControlProcessor:112 - Nessun inserimento da fare nella tabella TBSI_TITE
+2020-06-15 18:03:51 INFO  RelationControlProcessor:71 - Collegamento con interfaccia swagger Rest Crif
+2020-06-15 18:03:51 INFO  ListRequestCreator:29 - inizio conversione TableEntityTite---->Request
+2020-06-15 18:03:51 INFO  RequestResponseExecutor:61 - ApiClient attivata
+2020-06-15 18:03:51 INFO  RequestResponseExecutor:54 - 755c3971-3498-4e70-a043-8449ec5235b9
+2020-06-15 18:03:51 INFO  RequestResponseExecutor:55 - fbdadbdf-4b5b-4701-8ee2-e86dbb99b097
+2020-06-15 18:03:51 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: null
+        reaCode: null
+        cciaaProvince: null
+        fiscalCode: 11280380012
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: null
+        province: TO
+        nation: null
+        street: null
+        streetNumber: null
+        postalCode: null
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:04:01 INFO  RequestResponseExecutor:54 - a7deb4df-3c1c-45fd-8faa-d65c1db55c10
+2020-06-15 18:04:01 INFO  RequestResponseExecutor:55 - ee661890-7471-4acd-8fa8-1b243c2d9240
+2020-06-15 18:04:01 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: null
+        reaCode: null
+        cciaaProvince: null
+        fiscalCode: 00569960560
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: null
+        province: VT
+        nation: null
+        street: null
+        streetNumber: null
+        postalCode: null
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:05:41 INFO  App:42 - file di properties caricati correttamente...
+2020-06-15 18:05:41 INFO  App:43 - creo cartelle input/output...
+2020-06-15 18:05:41 INFO  RelationControlProcessor:91 - Batch process Attivato
+2020-06-15 18:05:41 INFO  SelectFromTite:27 - Avvio procedura Select delle societa' da inviare a crif...
+2020-06-15 18:05:41 INFO  DbQueryObject:59 - Query createRecoveryTiteSelect creata con successo...SELECT * FROM TBSI_NPF_ACQ_NO_REL_SOC_TITE WHERE FL_ELABORATO IS NULL OR (FL_ELABORATO = 'N' AND NU_RETRY<3)
+2020-06-15 18:05:43 INFO  DbSendQuery:73 - invio query riuscito e lista recovery creata con successo
+2020-06-15 18:05:43 INFO  RelationControlProcessor:54 - Creazione csv locale: ---> C:\Users\Matte\OneDrive\Desktop\controlRelation\output\FirstMappingResult.csv
+2020-06-15 18:05:43 INFO  AMLCSVWriter:46 - scrittura file terminata
+2020-06-15 18:05:43 INFO  RelationControlProcessor:58 - scritttura avvenuta correttamente
+2020-06-15 18:05:43 INFO  RelationControlProcessor:48 - Avvio procedura FirsMapping
+2020-06-15 18:05:43 INFO  FirstMapping:26 - Tentativo Connessione al Db e invio query First Mapping...
+2020-06-15 18:05:43 INFO  DbQueryObject:36 - Query creata con successo...
+2020-06-15 18:05:43 INFO  DbQueryObject:37 - SELECT DISTINCT relSoc.co_key_ext AS co_soc, relSoc.co_proc as co_proc, pga.co_piva AS co_piva, pga.co_fis AS co_fis_soc, pga.id_sogg AS id_sogg_soc, null as fl_elaborato, sysdate as dt_ins FROM tbsi_relazione relSoc, tbsi_relazione relPv, tbsi_delegati_tite relDel, tbsi_pers_giu_ana pga, tbsi_adverifica_pf_ana advPfAna, TBSI_NPF_ACQ_NO_REL_SOC_TITE nrt WHERE 1=1 AND relSoc.co_tp_rel = 11 AND relSoc.id_rel = relPv.id_rel_coll AND relPv.co_tp_rel = 13AND((relSoc.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relSoc.dt_fin_vld, SYSDATE+1) > SYSDATE) OR (relPv.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relPv.dt_fin_vld, SYSDATE+1) > SYSDATE))AND relSoc.id_sogg = relDel.id_sogg_soc AND relDel.co_tp_rel_delegato = 21 AND relSoc.id_sogg = pga.id_sogg AND relDel.id_sogg_delegato = advPfAna.id_sogg AND advPfAna.co_tp_rel_soc_tite IS NULL AND relSoc.co_key_ext=nrt.co_soc(+)AND relSoc.co_proc=nrt.co_proc(+) AND nrt.id_sogg_soc IS NULL
+2020-06-15 18:05:47 INFO  DbSendQuery:47 - query first mapping creata inviata con successo
+2020-06-15 18:05:47 INFO  RelationControlProcessor:112 - Nessun inserimento da fare nella tabella TBSI_TITE
+2020-06-15 18:05:47 INFO  RelationControlProcessor:71 - Collegamento con interfaccia swagger Rest Crif
+2020-06-15 18:05:47 INFO  ListRequestCreator:29 - inizio conversione TableEntityTite---->Request
+2020-06-15 18:05:47 INFO  RequestResponseExecutor:61 - ApiClient attivata
+2020-06-15 18:05:47 INFO  RequestResponseExecutor:54 - d4308610-fd2d-4968-bfce-98f19c9624f1
+2020-06-15 18:05:47 INFO  RequestResponseExecutor:55 - 54e92952-d684-452f-abc3-fb44bc1dd138
+2020-06-15 18:05:47 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 11280380012
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}
+2020-06-15 18:10:06 INFO  App:42 - file di properties caricati correttamente...
+2020-06-15 18:10:06 INFO  App:43 - creo cartelle input/output...
+2020-06-15 18:10:06 INFO  RelationControlProcessor:102 - Batch process Attivato
+2020-06-15 18:10:06 INFO  SelectFromTite:27 - Avvio procedura Select delle societa' da inviare a crif...
+2020-06-15 18:10:06 INFO  DbQueryObject:59 - Query createRecoveryTiteSelect creata con successo...SELECT * FROM TBSI_NPF_ACQ_NO_REL_SOC_TITE WHERE FL_ELABORATO IS NULL OR (FL_ELABORATO = 'N' AND NU_RETRY<3)
+2020-06-15 18:10:09 INFO  DbSendQuery:73 - invio query riuscito e lista recovery creata con successo
+2020-06-15 18:10:09 INFO  RelationControlProcessor:65 - Creazione csv locale: ---> C:\Users\Matte\OneDrive\Desktop\controlRelation\output\RecoveryResult.csv
+2020-06-15 18:10:09 INFO  AMLCSVWriter:46 - scrittura file terminata
+2020-06-15 18:10:09 INFO  RelationControlProcessor:69 - scritttura avvenuta correttamente
+2020-06-15 18:10:09 INFO  RelationControlProcessor:48 - Avvio procedura FirsMapping
+2020-06-15 18:10:09 INFO  FirstMapping:26 - Tentativo Connessione al Db e invio query First Mapping...
+2020-06-15 18:10:09 INFO  DbQueryObject:36 - Query creata con successo...
+2020-06-15 18:10:09 INFO  DbQueryObject:37 - SELECT DISTINCT relSoc.co_key_ext AS co_soc, relSoc.co_proc as co_proc, pga.co_piva AS co_piva, pga.co_fis AS co_fis_soc, pga.id_sogg AS id_sogg_soc, null as fl_elaborato, sysdate as dt_ins FROM tbsi_relazione relSoc, tbsi_relazione relPv, tbsi_delegati_tite relDel, tbsi_pers_giu_ana pga, tbsi_adverifica_pf_ana advPfAna, TBSI_NPF_ACQ_NO_REL_SOC_TITE nrt WHERE 1=1 AND relSoc.co_tp_rel = 11 AND relSoc.id_rel = relPv.id_rel_coll AND relPv.co_tp_rel = 13AND((relSoc.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relSoc.dt_fin_vld, SYSDATE+1) > SYSDATE) OR (relPv.dt_ini_vld > TO_DATE('20200331','yyyymmdd') AND NVL(relPv.dt_fin_vld, SYSDATE+1) > SYSDATE))AND relSoc.id_sogg = relDel.id_sogg_soc AND relDel.co_tp_rel_delegato = 21 AND relSoc.id_sogg = pga.id_sogg AND relDel.id_sogg_delegato = advPfAna.id_sogg AND advPfAna.co_tp_rel_soc_tite IS NULL AND relSoc.co_key_ext=nrt.co_soc(+)AND relSoc.co_proc=nrt.co_proc(+) AND nrt.id_sogg_soc IS NULL
+2020-06-15 18:10:12 INFO  DbSendQuery:47 - query first mapping creata inviata con successo
+2020-06-15 18:10:12 INFO  RelationControlProcessor:123 - Nessun inserimento da fare nella tabella TBSI_TITE
+2020-06-15 18:10:12 INFO  RelationControlProcessor:82 - Collegamento con interfaccia swagger Rest Crif
+2020-06-15 18:10:12 INFO  ListRequestCreator:29 - inizio conversione TableEntityTite---->Request
+2020-06-15 18:10:12 INFO  RequestResponseExecutor:61 - ApiClient attivata
+2020-06-15 18:10:12 INFO  RequestResponseExecutor:54 - f8093e6a-8c78-45d0-b708-5f46904f3598
+2020-06-15 18:10:12 INFO  RequestResponseExecutor:55 - 7004a2e7-3947-465a-9037-f0943a93aff9
+2020-06-15 18:10:12 INFO  RequestResponseExecutor:74 - class GetCompanyReliabilityReportRequest {
+    companyData: class CompanyBasicData {
+        rsd: 
+        reaCode: 
+        cciaaProvince: 
+        fiscalCode: 11280380012
+    }
+    individualCompanyData: null
+    addresses: [class Address {
+        city: 
+        province: TO
+        nation: 
+        street: 
+        streetNumber: 
+        postalCode: 00000
+    }]
+    reportTypeCode: FGold
+}

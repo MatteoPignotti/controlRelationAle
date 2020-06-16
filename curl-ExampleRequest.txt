@@ -1,0 +1,16 @@
+curl --location --request POST 'https://intmt.private.nexicloud.it:4003/mt-services/customer/reliability/v1/getCompanyReliabilityReport' --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'MT_APPLICATION: CH' --header 'MT_USER: MT_TEST_PASQUALE' --header 'MT_CHANNEL: WEB' --header 'MT_COMPANY_GROUP: NEXI' --header 'MT_COMPANY: NEXI' --header 'MT_PARTNER: NEXI' --header 'MT_REQUEST_ID: 255e98db-2436-4115-90de-30de6826f90a' --header 'MT_SESSION_ID: 38b0ff7d-a9b9-4b93-92db-2230d72850ea' --data-raw '{  
+   "addresses": [  
+     {  
+       "city": "",  
+       "nation": "",  
+       "postalCode": "",  
+       "province": "EN",  
+       "street": "",  
+       "streetNumber": ""  
+     }  
+   ],  
+   "companyData": {  
+     "fiscalCode": "01152930861"
+   },
+   "reportTypeCode": "FComCard"  
+ }'
